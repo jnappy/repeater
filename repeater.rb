@@ -12,4 +12,18 @@ require "pry"
 
 # store the users input in a variable
 
-# call the method 
+# call the method
+
+def repeat(text, n)
+  puts text * n
+end
+
+puts "Hi! What do you want to say?"
+
+text = gets
+
+puts "Great. How many times do you want to see it?"
+
+n = gets.to_i
+
+repeat(text, n)
